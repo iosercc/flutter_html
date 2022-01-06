@@ -144,8 +144,8 @@ class TableLayoutElement extends LayoutElement {
 
     return LayoutGrid(
       gridFit: GridFit.loose,
-      templateColumnSizes: finalColumnSizes,
-      templateRowSizes: rowSizes,
+      columnSizes: finalColumnSizes,
+      rowSizes: rowSizes,
       children: cells,
     );
   }
